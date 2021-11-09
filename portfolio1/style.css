@@ -368,6 +368,7 @@ body {
 .about-img {
     display: flex;
     width: 40%;
+    overflow-x: hidden;
     justify-content: center;
     align-items: center;
 }

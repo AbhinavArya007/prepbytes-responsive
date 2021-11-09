@@ -749,7 +749,7 @@ body {
 
 @media only screen and (max-width:525px) {
     .about-img {
-        bottom: 300px;
+        bottom: 200px;
     }
     .resume .resume-imgs {
         width: 90%;
@@ -765,7 +765,11 @@ body {
         width: 70px;
     }
 }
-
+@media only screen and (max-width:470px) {
+    .about-img {
+        bottom: 300px;
+    }
+}
 @media only screen and (max-width:450px) {
     .resume p {
         font-size: 20px;
@@ -774,14 +778,7 @@ body {
 
 @media only screen and (max-width:430px) {
     .about-img {
-        order: 2;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        position: relative;
-        bottom: 250px;
+        bottom: 280px;
     }
 }
 

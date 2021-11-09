@@ -20,7 +20,7 @@ body {
     background-color: #fbf3e4;
     position: sticky;
     top: 0px;
-    z-index: 20;
+    z-index: 10;
 }
 
 .heading {
@@ -63,6 +63,7 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
+    z-index: 21;
     display: none;
     padding: 5px 10px;
     color: #0e726a;
@@ -79,10 +80,9 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
     top: 0;
     right: 0;
-    z-index: 10;
+    z-index: 11;
     background-color: rgba(255, 255, 255, 1);
     overflow-x: hidden;
     transition: 0.5s;

@@ -9,7 +9,6 @@
 body {
     background: #f7f7f7;
     overflow-x: hidden;
-
 }
 
 
@@ -62,7 +61,7 @@ body {
 /* this code is for side navbar  */
 
 .slide-nav {
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 10px;
     z-index: 21;
@@ -82,9 +81,10 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
+    z-index: 25;
     top: 0;
     right: 0;
-    z-index: 11;
+    z-index: 10;
     background-color: rgba(255, 255, 255, 1);
     overflow-x: hidden;
     transition: 0.5s;

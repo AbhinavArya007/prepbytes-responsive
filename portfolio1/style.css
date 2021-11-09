@@ -759,17 +759,19 @@ body {
     }
 }
 
+@media only screen and (max-width:470px) {
+    .about-img {
+        bottom: 300px;
+    }
+}
+
 @media only screen and (max-width:495px) {
     .llt img {
         height: 70px;
         width: 70px;
     }
 }
-@media only screen and (max-width:470px) {
-    .about-img {
-        bottom: 300px;
-    }
-}
+
 @media only screen and (max-width:450px) {
     .resume p {
         font-size: 20px;
